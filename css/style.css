@@ -27,15 +27,7 @@ ul {
 .display-flex {
   display: flex;
 }
-.text-dark-1 {
-  color: #131313;
-}
-.text-dark-2 {
-  color: #424242;
-}
-.text-dark-3 {
-  color: #727272;
-}
+
 .text-center {
   text-align: center;
 }
@@ -53,6 +45,9 @@ ul {
   border-radius: 8px;
   cursor: pointer;
 }
+.text-primary {
+  color: #ff900e;
+}
 .btn-primary {
   background: #ff900e;
   color: #fff;
@@ -60,6 +55,32 @@ ul {
 .btn-primary:hover {
   background: #e27901;
 }
+.section-title {
+  color: #131313;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.section-subtitle {
+  color: #131313;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.text-light {
+  color: #727272;
+  font-weight: 500;
+}
+.text-dark-1 {
+  color: #131313;
+}
+.text-dark-2 {
+  color: #424242;
+}
+.text-dark-3 {
+  color: #727272;
+}
+
 /* Utility Classes End Here */
 /* Header Section Styling Start Here */
 #header {
@@ -109,5 +130,160 @@ ul {
   border-radius: 8px;
 }
 /* Showcase Section Styling End Here */
-
 /* Header Section Styling End Here */
+/* Main Section Styling Start Here */
+/* Features Section Styling Start Here */
+#features {
+  margin: 85px auto 130px;
+}
+/* Quick Feature Part Styling Start Here */
+.quick-feature {
+  display: flex;
+  gap: 76px;
+  align-items: center;
+  margin-bottom: 130px;
+}
+.quick-feature-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.quick-feature-img {
+  width: 342px;
+}
+.quick-feature-img img {
+  width: 100%;
+}
+.quick-feature-text {
+  max-width: 537px;
+}
+.quick-feature-description {
+  margin-bottom: 32px;
+}
+/* Quick Feature Part Styling End Here */
+/* Love Feature Section Styling Start Here */
+.love-feature-container {
+  justify-content: space-between;
+}
+.love-feature-title {
+  border-left: 5px solid #ff900e;
+  margin-top: 39px;
+  padding-left: 21px;
+}
+.love-feature-description {
+  margin-bottom: 30px;
+}
+.love-feature-text {
+  width: 40%;
+}
+.feature-box {
+  padding: 30px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  margin-bottom: 20px;
+}
+.love-feature-img {
+  width: 50%;
+}
+.love-feature-img img {
+  width: 100%;
+}
+.experience-badge {
+  width: 300px;
+  height: 200px;
+  border-radius: 8px;
+  background: #ff900e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 150px;
+  left: -100px;
+}
+.experience-badge h1 {
+  color: #fff;
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 70px;
+}
+.experience {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 40px;
+}
+/* Love Feature Section Styling End Here */
+/* Features Section Styling End Here */
+/* Some Facts Section Styling Start Here */
+#facts {
+  margin-bottom: 180px;
+}
+.facts-text {
+  margin-bottom: 100px;
+}
+.facts-text > .description {
+  width: 542px;
+}
+.fact-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  gap: 100px;
+  padding: 0px 50px;
+}
+.fact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 45px 35px 59px;
+  border-radius: 8px;
+  border: 1px solid #ff900e;
+  gap: 10px;
+}
+.fact-title {
+  color: #424242;
+  font-size: 45px;
+  font-weight: 600;
+}
+.fact-text {
+  color: var(--Dark-03, #727272);
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+/* Some Facts Section Styling End Here */
+/* Sponsor Section Styling Start Here */
+#sponsor {
+  margin-bottom: 130px;
+}
+.sponsor-description {
+  width: 542px;
+  margin: 0 auto;
+}
+.sponsor-image-container {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  gap: 155px;
+  margin-top: 50px;
+  justify-content: center;
+}
+.sponsor-img img {
+  width: 100%;
+  filter: grayscale(1);
+}
+/* Sponsor Section Styling End Here */
+/* Main Section Styling End Here */
+/* Footer Section Styling Start Here */
+.footer-desctiption {
+  color: #424242;
+  font-size: 20px;
+  padding: 40px 0px;
+  border-radius: 8px;
+  background: #fff4e7;
+}
+/* Footer Section Styling End Here */
