@@ -155,7 +155,7 @@ ul {
   width: 100%;
 }
 .quick-feature-text {
-  max-width: 537px;
+  width: 537px;
 }
 .quick-feature-description {
   margin-bottom: 32px;
@@ -279,7 +279,7 @@ ul {
 /* Sponsor Section Styling End Here */
 /* Main Section Styling End Here */
 /* Footer Section Styling Start Here */
-.footer-desctiption {
+.footer-description {
   color: #424242;
   font-size: 20px;
   padding: 40px 0px;
