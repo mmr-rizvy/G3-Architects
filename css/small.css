@@ -1,8 +1,18 @@
 .nav-container {
   flex-direction: column;
   gap: 24px;
+  padding: 0px 32px;
+}
+.nav-links {
+  flex-direction: column;
+}
+#showcase {
+  padding: 0px 24px;
 }
 
+.showcase-large-heading {
+  font-size: 52px;
+}
 #features {
   margin: 45px auto 65px;
 }
@@ -73,4 +83,7 @@
 
 .footer-description {
   padding: 40px 20px;
+}
+.section-title {
+  font-size: 40px;
 }
